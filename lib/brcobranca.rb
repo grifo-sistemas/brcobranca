@@ -101,6 +101,7 @@ module Brcobranca
     autoload :BancoBrasil,   'brcobranca/boleto/banco_brasil'
     autoload :BancoBrasilia, 'brcobranca/boleto/banco_brasilia'
     autoload :Itau,          'brcobranca/boleto/itau'
+    autoload :Cresol,         'brcobranca/boleto/cresol'
     autoload :Hsbc,          'brcobranca/boleto/hsbc'
     autoload :Bradesco,      'brcobranca/boleto/bradesco'
     autoload :Caixa,         'brcobranca/boleto/caixa'
@@ -152,6 +153,7 @@ module Brcobranca
       autoload :Sicoob,        'brcobranca/retorno/cnab240/sicoob'
       autoload :Caixa,         'brcobranca/retorno/cnab240/caixa'
       autoload :Ailos,         'brcobranca/retorno/cnab240/ailos'
+      autoload :Cresol,         'brcobranca/retorno/cnab240/cresol'
     end
   end
 
@@ -177,6 +179,7 @@ module Brcobranca
 
     module Cnab240
       autoload :Base,               'brcobranca/remessa/cnab240/base'
+      autoload :Cresol,             'brcobranca/remessa/cnab240/cresol'
       autoload :BaseCorrespondente, 'brcobranca/remessa/cnab240/base_correspondente'
       autoload :Caixa,              'brcobranca/remessa/cnab240/caixa'
       autoload :BancoBrasil,        'brcobranca/remessa/cnab240/banco_brasil'
